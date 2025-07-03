@@ -51,7 +51,7 @@ This project performs data cleaning and exploratory data analysis (EDA) on the T
 titanic-eda-project/
 │
 ├── train.csv
-├── titanic_eda.ipynb
+├── titanic EDA.ipynb
 └── README.md
 ```
 
