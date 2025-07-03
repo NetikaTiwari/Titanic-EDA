@@ -1,15 +1,15 @@
 
-# 🚢 Titanic Dataset - Data Cleaning & Exploratory Data Analysis (EDA)
+# Titanic Dataset - Data Cleaning & Exploratory Data Analysis (EDA)
 
-## 📌 Project Overview
+## Project Overview
 This project performs data cleaning and exploratory data analysis (EDA) on the Titanic dataset provided by [Kaggle](https://www.kaggle.com/c/titanic/data). The objective is to understand survival patterns by exploring relationships between key features like sex, age, passenger class, and more.
 
-## 📁 Dataset
+## Dataset
 - **Source:** [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic/data)
 - **File Used:** `train.csv`
 - **Target Variable:** `Survived` (0 = No, 1 = Yes)
 
-## ✅ Tasks Performed
+## Tasks Performed
 - Loaded and examined the dataset.
 - Cleaned missing values in:
   - `Age` (filled with median)
@@ -20,20 +20,20 @@ This project performs data cleaning and exploratory data analysis (EDA) on the T
 - Converted categorical columns (`Sex`, `Embarked`) into numeric values.
 - Performed EDA using Seaborn and Matplotlib visualizations.
 
-## 📊 EDA Visualizations
+##  EDA Visualizations
 - ✅ Overall survival count
 - ✅ Survival by gender
 - ✅ Survival by passenger class
 - ✅ Age distribution of passengers
 - ✅ Correlation heatmap of numeric features
 
-## 🔍 Key Insights
+## Key Insights
 - **Females** had a significantly higher survival rate.
 - **1st Class** passengers had better survival odds than those in 2nd or 3rd.
 - Younger passengers were more likely to survive.
 - Features like `Sex`, `Pclass`, and `Fare` had strong correlation with survival.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -41,12 +41,12 @@ This project performs data cleaning and exploratory data analysis (EDA) on the T
 - Seaborn
 - Jupyter Notebook
 
-## 📦 How to Run
+## How to Run
 1. Download `train.csv` from Kaggle.
 2. Place the file in your project folder.
 3. Run the Python or Jupyter Notebook file containing the analysis code.
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 titanic-eda-project/
 │
@@ -55,5 +55,5 @@ titanic-eda-project/
 └── README.md
 ```
 
-## ✍️ Author
+##  Author
 **Netika Tiwari**
