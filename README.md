@@ -53,7 +53,3 @@ titanic-eda-project/
 ├── train.csv
 ├── titanic EDA.ipynb
 └── README.md
-```
-
-##  Author
-**Netika Tiwari**
